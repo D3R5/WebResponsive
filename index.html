@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web responsive con efectos</title>
+    
+    <!-- Para el ícono de tres barras que muestra el menu al reducir la pantalla -->
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script> 
+
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+<body>    
+
+    <header>
+        <div class="headerContent">	
+            <div class="logo">
+                <img src="/img/skull.png" alt="">
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="#">Juegos</a></li>
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <i class="fa-solid fa-bars" id="iconMenu"></i>
+            <div class="headerRegister">
+                <input type="button" class="btnHeaderRegister" value="Registrate">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="cover">
+            <div class="txtInformationCover">
+                <h1>Juega sin límites</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati quae assumenda, sed sint praesentium dolorum hic ullam ipsa reiciendis sapiente ratione omnis aliquam. Hic tempore voluptatem voluptatum, minus in aut.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit aperiam unde earum quos, consectetur dolor harum ipsa obcaecati libero aut hic sapiente eius rem! Perferendis qui tempore fugit non sed?</p>
+                <div class="btnsCover">
+                    <input type="button" class="btnRegisterCover" value="Registrarse">
+                    <input type="button" class="btnReadMoreCover" value="Ver más">
+                </div>
+            </div>
+            <div class="mediaCover">
+                <video src="/img/game.webm" autoplay playinline loop muted preload="auto"></video>
+            </div>
+        </div>
+        <div class="bannerContainer">
+            <div class="banner">
+                <div class="bannerGame">
+                    <img src="/img/geek.png" id="iconGame" alt="">
+                </div>
+                <div class="bannerJoystick">
+                    <img src="/img/joystick.png" id="iconJoystick" alt="">
+                </div>
+                <div class="bannerTxt">
+                    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus vel consequuntur unde cum omnis incidunt.</h2>
+                    <a href="#">Leer más</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="pie">
+        <p>Derechos reservados &copy;</p>
+    </footer>
+    
+    <script src="/script.js"></script>
+    
+</body>
+</html>
