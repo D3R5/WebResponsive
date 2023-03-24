@@ -1,13 +1,13 @@
-document.getElementById("iconMenu").addEventListener("click", mostrarMenu);
+document.getElementById("iconMenu").addEventListener("click", showMenu);
 
-function mostrarMenu(){
-    document.querySelector(".menu").classList.toggle("mostrarMenu");
+function showMenu(){
+    document.querySelector(".menu").classList.toggle("showMenu");
 }
 
 window.onscroll = function () {
-    var posicion = window.pageYOffset || document.documentElement.scrollTop;
+    var position = window.pageYOffset || document.documentElement.scrollTop;
     var elemento1 = document.getElementById("iconGame");
     var elemento2 = document.getElementById("iconJoystick");
-    elemento1.style.bottom = posicion * 0.15 + "px";
-    elemento2.style.top = posicion * 0.15 + "px";
+    elemento1.style.bottom = position * 0.15 + "px";
+    elemento2.style.top = position * 0.15 + "px";
 }

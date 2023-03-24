@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
 
-
 *{
     margin: 0;
     padding: 0;
@@ -13,6 +12,7 @@
     background: #f1906c;
     text-align: center;
 }
+
 body{
     background: #f6b7a0;
 }
@@ -79,8 +79,7 @@ header{
     display: none;
 }
 
-/*PORTADA - COVER*/
-
+/*PORTADA*/
 main{
     max-width: 1500px;
     height: calc(100vh + 800px);
@@ -136,8 +135,7 @@ main{
     margin-top: -40px;
 }
 
-/*BANNER*/
-
+/*Banner*/
 .bannerContainer{
     margin-top: 80px;
 }
@@ -241,7 +239,8 @@ main{
         padding: 10px 40px;
     }
 
-    .mostrarMenu{/*CLASE MANIPULADA POR JS*/
+    /*showMenu lo maneja JS*/
+    .showMenu{
         height: 240px;
     }
 
